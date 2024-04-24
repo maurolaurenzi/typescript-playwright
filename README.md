@@ -26,4 +26,4 @@ In order to run the test cases, you must have NodeJS preinstalled:
 
 - You can watch a demo of the tests execution [here](https://vimeo.com/938859782?share=copy).
 - You can run the tests in headless mode by editing the `headless: false` variable inside defineConfig.use in the playwright.config.ts file
-- Given that Playwright doesn't mantain a browser's context in different test cases or hooks, we cannot use a before hook for logging into the app once and then running the tests. The workaround was to create an `auth.setup.ts` file inside the tests folder and then use it in the playwright.config.ts. For more info: https://playwright.dev/docs/auth
+- Given that Playwright doesn't mantain a browser's context between different test cases or hooks, we cannot use a before hook for logging into the app once and then running the tests. The workaround was to create an `auth.setup.ts` file inside the tests folder and then use it in the playwright.config.ts. For more info: https://playwright.dev/docs/auth
