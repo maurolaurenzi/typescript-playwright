@@ -7,7 +7,7 @@ A TypeScript + Playwright test script that validates that users are able to perf
 
 ## Dependencies
 
-In order to run the test cases, you must have NodeJS preinstalled:
+In order to run the test cases, you must have NodeJS installed:
 
 - NodeJS: https://nodejs.org/en/learn/getting-started/how-to-install-nodejs
 
